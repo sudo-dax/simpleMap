@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.8.1)
+    equatable (0.6.1)
+    necromancer (0.5.0)
+    pastel (0.7.3)
+      equatable (~> 0.6)
+      tty-color (~> 0.5)
+    strings-ansi (0.1.0)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
+    tty-color (0.5.0)
+    tty-cursor (0.7.0)
+    tty-progressbar (0.17.0)
+      strings-ansi (~> 0.1.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.7)
+      unicode-display_width (~> 1.6)
+    tty-prompt (0.19.0)
+      necromancer (~> 0.5.0)
+      pastel (~> 0.7.0)
+      tty-reader (~> 0.6.0)
+    tty-reader (0.6.0)
+      tty-cursor (~> 0.7)
+      tty-screen (~> 0.7)
+      wisper (~> 2.0.0)
+    tty-screen (0.7.0)
+    unicode-display_width (1.6.0)
+    wisper (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  terminal-table
+  tty-progressbar
+  tty-prompt
+
+BUNDLED WITH
+   1.17.3
